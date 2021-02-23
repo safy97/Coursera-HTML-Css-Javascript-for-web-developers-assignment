@@ -16,17 +16,23 @@ section {
 }
 
 div.inner{
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
   border: 1px solid black;
   background-color: grey;
+}
+div.upper{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
+}
+.row:after{
+  clear: both;
+  display: table;
+  content: " ";
 }
 
 .title{
